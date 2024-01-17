@@ -468,6 +468,10 @@ section.slider img {
   transition: transform 0.2s;
   border-radius: inherit;
 }
+.product-overlay img {
+  transform: rotate(90deg);
+  filter: brightness(0.65);
+}
 .product-overlay ul {
   position: absolute;
   top: 50%;
